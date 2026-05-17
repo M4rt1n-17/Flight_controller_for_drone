@@ -1,10 +1,3 @@
-/*
-  Transmitter Code — matched to flight controller RX struct
-  - Struct is exactly: int16_t throttle, roll, pitch, yaw (8 bytes)
-  - Expo curve on roll/pitch/throttle for softer center feel
-  - 50 Hz transmit rate
-  - Joystick calibration on boot
-*/
 
 #include <SPI.h>
 #include <nRF24L01.h>
